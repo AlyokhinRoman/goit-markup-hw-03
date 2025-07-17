@@ -94,6 +94,7 @@ body {
 }
 .address-list{
     gap: 40px;
+    display: flex;
 }
 .address-item
 {
