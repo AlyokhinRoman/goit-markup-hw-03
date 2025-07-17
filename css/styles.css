@@ -39,6 +39,7 @@ body {
     text-align: center;
     line-height: 1.333;
     letter-spacing: 3px;
+    border-bottom: 1px solid #e7e9fc
 }
 .header-container {
             display: flex;
@@ -53,6 +54,9 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
+    margin-right: 76px
+    inline-block;
+    margin-bottom: 16px;
 }
 .page-logo-span{
     color: #2E2F42;
@@ -69,7 +73,7 @@ body {
 .menu-nav{
     display: flex;
     gap: 40px;
-
+    align-items: center;
 }
 .menu-item{
     font-weight: 500;
@@ -77,6 +81,7 @@ body {
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
 }
 .menu-item:hover, 
 .menu-item:focus{
@@ -85,8 +90,11 @@ body {
 
 .address{
     font-style: normal;
+    display: flex;
 }
-
+.address-list{
+    gap: 40px;
+}
 .address-item
 {
     font-size: 16px;
@@ -203,6 +211,7 @@ body {
 }
 .footer{
     background-color: #2E2F42;
+    padding: 100px 0;
 }
 .footer.logo
 {
