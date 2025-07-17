@@ -225,6 +225,7 @@ body {
 }
 .footer-logo-span{
     color: #F4F4Fd;
+    display: inline-block;
 }
 .footer-desc{
     line-height: 1.5;
