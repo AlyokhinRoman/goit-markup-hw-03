@@ -46,6 +46,10 @@ body {
             align-items: center;
             justify-content: space-between;
         }
+.header-menu{
+    display: flex;
+    align-items: center;
+}
 .page-logo{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -54,11 +58,12 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
-    margin-right: 76px
+    
     inline-block;
 }
 .page-logo-span{
     color: #2E2F42;
+    margin-right: 76px
 }
 
 .page-title{
@@ -123,7 +128,6 @@ body {
     cursor: pointer;
     display: block;
     min-width: 169px;
-    height: 56px;
     border: none;
     border-radius: 4px;
 }
