@@ -154,13 +154,13 @@ button {
 }
 
 .benefits-title {
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
+    color: #2e2f42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
-    text-align: center;
-    color: #2E2F42;
-    text-transform: capitalize;
+    text-align: left;
+    margin-bottom: 8px;
 }
 
 .benefits list{
@@ -288,12 +288,25 @@ button {
 }
 
 .footer-logo-span {
-    color: #F4F4Fd;
-    display: inline-block;
+    text-decoration: none;
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17%;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        justify-content: flex-start;
+        color: #f4f4fd;
 }
 
 .footer-desc {
+    font-family: "Roboto", sans-serif;
+    text-align: left;
+    color: #f4f4fd;
+    font-weight: 400;
+    font-size: 16px;
     line-height: 1.5;
-    color: #F4F4FD;
     letter-spacing: 0.02em;
+    flex-wrap: wrap;
+    width: 264px;
 }
