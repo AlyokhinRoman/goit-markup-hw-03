@@ -121,8 +121,7 @@ button {
     color: #404BBF;
 }
 .main{
-    background-color: #2e2f42;
-    padding: 188px 0;
+   padding: 188px 0;
 }
 .solutions {
     background-color: #2E2F42;
@@ -134,18 +133,24 @@ button {
  }
 
 .button-order-service {
-    background-color: #4D5AE5;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #FFFFFF;
-    cursor: pointer;
-    display: block;
-    min-width: 169px;
-    height: 56px;
-    border: none;
-    border-radius: 4px;
+    color: #ffffff;
+        background-color: #4d5ae5;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        height: 56px;
+        min-width: 169px;
+        align-self: center;
+        border-radius: 4px;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+        border: none;
+        display: block;
+        min-width: 169px;
+        cursor: pointer;
+        margin-right: auto;
+        margin-left: auto;
 }
 
 .button-order-service:hover {
