@@ -180,6 +180,7 @@ button {
     letter-spacing: 0.02em;
     color: #2E2F42;
     text-align: left;
+    margin-bottom: 8px;
 }
 
 .benefits-item-desc {
