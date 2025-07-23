@@ -189,9 +189,9 @@ button {
 }
 
 .benefits list{
-    display: flex;
+    /* display: flex; */
     justify-content: flex-start;
-    gap: 24px;
+    /* gap: 24px; */
     
 }
 .benefits-list-item{
