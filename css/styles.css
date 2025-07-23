@@ -188,15 +188,15 @@ button {
     margin-bottom: 8px;
 }
 
-.benefits list{
-    /* display: flex; */
+.benefits-list{
+    display: flex;
     justify-content: flex-start;
-    /* gap: 24px; */
+    gap: 24px;
     
 }
 .benefits-list-item{
-    display: flex;
-    gap: 24px;
+    /* display: flex; */
+    /* gap: 24px; */
     width: calc((100% - 72px) / 4);
 }
 
