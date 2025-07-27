@@ -228,7 +228,7 @@ button {
 .about-team {
     text-align: center;
     background-color: #F4F4FD;
-    /* padding: 120px 0; */
+    padding-top: 120px;
 }
 
 .team-header {
